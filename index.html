@@ -3,38 +3,155 @@
     <head>
         <title>My Blog</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+        <!-- Font Awesome Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     </head>
     <body>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <!--Navbar-->
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light"></nav>
-            <a class="navbar-brand" href="#">companyName</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#header">Home</a>
-                </li>
-                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About Us</a>
-                </li>
-                 <li class="nav-item">
-                    <a class="nav-link" href="#team">Meet Our Team</a>
-                </li>
-                 <li class="nav-item">
-                    <a class="nav-link" href="#getinvolved">Get Involved</a>
-                </li>
-                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                 <li class="nav-item">
-                    <a class="nav-link" href="#donate">Donate</a>
-                </li>
-            </ul>
-        </div>    
+
+<!-- Navigation -->
+        <div id="myNavbar" class="navbar navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    <a href="#" class="navbar-brand">Media</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#pricing">pricing</a></li>
+                        <li><a href="#team">team</a></li>
+                        <li><a href="#client">clients</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!-- End Navigation -->        
+        
+<!-- Header -->
+         
+         <div id="header" class="header">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-lg-6 col-md-6">
+                         <h1>Responsive Web Design</h1>
+                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+                         <button class="btn btn-lg btn-primary">Buy Now</button>
+                         <button class="btn btn-lg btn-success">View Detail</button>
+                     </div>
+                     <div class="col-lg-6 col-md-6">
+                         <img src="https://raw.githubusercontent.com/hasratsabit/landing-page/master/images/Responsive-Web-Design.png">
+                     </div>
+                 </div>
+             </div>
+         </div>
+          
+<!-- End Header -->
+
+<!-- About Us -->
+        <div id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>
+                    Placeholder text.
+                </p>
+                
+                <hr>
+                <h3>Our Work</h3>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6">
+                        <i class="fas fa-seedling" aria-hidden="true"></i>
+                        <span><strong>Climate</strong></span>
+                        <p>Place holder text.</p>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <i class="fas fa-seedling" aria-hidden="true"></i>
+                        <span><strong>Oceans</strong></span>
+                        <p>Place holder text.</p>
+                    </div>
+                </div>
+               <div class="row">
+                    <div class="col-lg-6 col-sm-6">
+                        <i class="fas fa-seedling" aria-hidden="true"></i>
+                        <span><strong>Land</strong></span>
+                        <p>Place holder text.</p>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <i class="fas fa-seedling" aria-hidden="true"></i>
+                        <span><strong>Cities</strong></span>
+                        <p>Place holder text.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<!-- Team -->
+        <div id="teams" class="team">
+            <div class="container">
+                <h2>Our Team</h2>
+                
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <img src="https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2017%2F12%2Fterry-crews-person-of-year-2017-time-magazine-2.jpg&w=1600&q=70" class="rounded-circle">
+                    </div>
+                    <div class="col-lg-8 col-md-8">
+                        <h3>Name</h3>
+                        <h4>Founder</h4>
+                        <p>Place holder text.</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <img src="https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2017%2F12%2Fterry-crews-person-of-year-2017-time-magazine-2.jpg&w=1600&q=70" class="rounded-circle">
+                    </div>
+                    <div class="col-lg-8 col-md-8">
+                        <h3>Name</h3>
+                        <h4>Founder</h4>
+                        <p>Place holder text.</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <img src="https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2017%2F12%2Fterry-crews-person-of-year-2017-time-magazine-2.jpg&w=1600&q=70" class="rounded-circle">
+                    </div>
+                    <div class="col-lg-8 col-md-8">
+                        <h3>Name</h3>
+                        <h4>Founder</h4>
+                        <p>Place holder text.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Team End -->
+
+<!-- Contact --> 
+        <div id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        
+                    </div>
+                    <div class="col-lg-6 col-md-6"> 
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Contact End -->        
+
     </body>
 </html>
